@@ -14,3 +14,11 @@ pfp.src = "https://t3.ftcdn.net/jpg/06/23/83/12/360_F_623831278_UGdz5yr06waGsb23
 pfp.height="54"
 pfp.width="54"
 document.getElementById('launch-profile').appendChild(pfp);
+
+var img = document.createElement("img")
+img.src = "https://marketplace.canva.com/EAFGlvWuzm8/1/0/1600w/canva-yellow-white-3d-simple-funny-meme-XumAOJ02HrU.jpg"
+img.height = 400
+img.width = 400
+document.getElementById('896258Content0').appendChild(img)
+
+document.getElementById('papercut').remove()
