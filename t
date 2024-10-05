@@ -41,5 +41,16 @@ document.getElementById('calculator').remove()
 var calcMeme = document.createElement('img')
 calcMeme.src = "https://media.tenor.com/p6WfHLsgWqwAAAAe/calc-slang.png"
 calcMeme.width = 230
-calcMeme.style = "position: absolute; top: 244px; left: 480px;"
+calcMeme.style = "position: absolute; top: 110px; left: 480px;"
 document.getElementById('column1').appendChild(calcMeme)
+
+var memeMeme = document.createElement('img')
+memeMeme.src = "https://m.media-amazon.com/images/I/71e7NrKQ6tL._SY466_.jpg"
+memeMeme.width = 230
+memeMeme.style = "position: absolute; top: 350px; left: 480px;"
+document.getElementById('column1').appendChild(memeMeme)
+
+var launchShortcutsText = document.getElementById('launchshortcuts').childNodes[0].childNodes[0].childNodes[1].textContent = "Launch MEMES!"
+document.getElementById('launchmessage').textContent = "CLICK ADD TO START SELECTING YOUR MEMESSSSSSSS  :D"
+
+document.getElementById('visitschoolwebsite').href = "https://www.larnehigh.org.uk"
