@@ -16,7 +16,7 @@ pfp.width="54"
 document.getElementById('launch-profile').appendChild(pfp);
 
 var img = document.createElement("img")
-img.src = "https://marketplace.canva.com/EAFGlvWuzm8/1/0/1600w/canva-yellow-white-3d-simple-funny-meme-XumAOJ02HrU.jpg"
+img.src = "https://people.com/thmb/k4JhniEAEBDjtuw8C4VYdIC93k8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/twilight-stills-5-696b003510e24b0eb3816740a1fc7598.jpg"
 img.height = 400
 img.width = 400
 document.getElementById('896258Content0').appendChild(img)
@@ -33,7 +33,7 @@ logoElement.height = 80
 document.getElementById('googlesearch').remove()
 var googleMeme = document.createElement('img')
 googleMeme.style = "position: absolute; top: 0px; left: 480px;"
-googleMeme.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVjYQIeA5Bl3BfZ55d94VF23dhqktXfXeLeg&s"
+googleMeme.src = "https://i.pinimg.com/236x/6a/85/72/6a8572a05e22a16e20567823bf012b10.jpg"
 googleMeme.width = 230
 document.getElementById('column1').appendChild(googleMeme)
 
