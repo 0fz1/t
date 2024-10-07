@@ -17,9 +17,16 @@ document.getElementById('launch-profile').appendChild(pfp);
 
 var img = document.createElement("img")
 img.src = "https://people.com/thmb/k4JhniEAEBDjtuw8C4VYdIC93k8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/twilight-stills-5-696b003510e24b0eb3816740a1fc7598.jpg"
-img.height = 400
-img.width = 400
+img.width = 430
+var img2 = document.createElement("img")
+img2.src = "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F36d0a966-5e7f-46d0-9c2f-14c9cdd31271_866x831.jpeg"
+img2.width = 430
+var img3 = document.createElement("img")
+img3.src = "https://www.tvfestival.com/img/news/six-moments-plus-droles-de-friends/2.jpg"
+img3.width = 430
 document.getElementById('896258Content0').appendChild(img)
+document.getElementById('896258Content0').appendChild(img2)
+document.getElementById('896258Content0').appendChild(img3)
 document.getElementById('papercut').remove()
 
 var titleElement = document.getElementById('school_popup_name')
@@ -47,3 +54,7 @@ var launchShortcutsText = document.getElementById('launchshortcuts').childNodes[
 document.getElementById('launchmessage').textContent = "Click Add to start selecting shortcuts"
 
 document.getElementById('visitschoolwebsite').href = "https://twilightsaga.fandom.com/wiki/Twilight_Saga_Wiki"
+
+document.getElementById('launchmessage').remove()
+document.getElementById('LaunchAddContainer').remove()
+
