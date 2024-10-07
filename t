@@ -17,10 +17,16 @@ document.getElementById('launch-profile').appendChild(pfp);
 
 var img = document.createElement("img")
 img.src = "https://marketplace.canva.com/EAFGlvWuzm8/1/0/1600w/canva-yellow-white-3d-simple-funny-meme-XumAOJ02HrU.jpg"
-img.height = 400
-img.width = 400
+img.width = 430
+var img2 = document.createElement("img")
+img2.src = "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F36d0a966-5e7f-46d0-9c2f-14c9cdd31271_866x831.jpeg"
+img2.width = 430
+var img3 = document.createElement("img")
+img3.src = "https://www.tvfestival.com/img/news/six-moments-plus-droles-de-friends/2.jpg"
+img3.width = 430
 document.getElementById('896258Content0').appendChild(img)
-document.getElementById('papercut').remove()
+document.getElementById('896258Content0').appendChild(img2)
+document.getElementById('896258Content0').appendChild(img3)
 
 var titleElement = document.getElementById('school_popup_name')
 titleElement.textContent = "LARNE HIGH SCHOOL!!!! (best school eva)"
@@ -50,7 +56,7 @@ memeMeme.width = 230
 memeMeme.style = "position: absolute; top: 350px; left: 480px;"
 document.getElementById('column1').appendChild(memeMeme)
 
-var launchShortcutsText = document.getElementById('launchshortcuts').childNodes[0].childNodes[0].childNodes[1].textContent = "Launch MEMES!"
-document.getElementById('launchmessage').textContent = "CLICK ADD TO START SELECTING YOUR MEMESSSSSSSS  :D"
-
 document.getElementById('visitschoolwebsite').href = "https://www.larnehigh.org.uk"
+
+document.getElementById('launchmessage').remove()
+document.getElementById('LaunchAddContainer').remove()
