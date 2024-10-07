@@ -37,20 +37,13 @@ googleMeme.src = "https://i.pinimg.com/236x/6a/85/72/6a8572a05e22a16e20567823bf0
 googleMeme.width = 230
 document.getElementById('column1').appendChild(googleMeme)
 
-document.getElementById('calculator').remove()
-var calcMeme = document.createElement('img')
-calcMeme.src = "https://media.tenor.com/p6WfHLsgWqwAAAAe/calc-slang.png"
-calcMeme.width = 230
-calcMeme.style = "position: absolute; top: 110px; left: 480px;"
-//document.getElementById('column1').appendChild(calcMeme)
-
 var memeMeme = document.createElement('img')
-memeMeme.src = "https://m.media-amazon.com/images/I/71e7NrKQ6tL._SY466_.jpg"
+memeMeme.src = "https://iranian.com/main/files/blogimages/twilight-backlot-21.jpg"
 memeMeme.width = 230
 memeMeme.style = "position: absolute; top: 350px; left: 480px;"
 document.getElementById('column1').appendChild(memeMeme)
 
 var launchShortcutsText = document.getElementById('launchshortcuts').childNodes[0].childNodes[0].childNodes[1].textContent = "Launch MEMES!"
-document.getElementById('launchmessage').textContent = "CLICK ADD TO START SELECTING YOUR MEMESSSSSSSS  :D"
+document.getElementById('launchmessage').textContent = "Click Add to start selecting shortcuts"
 
-document.getElementById('visitschoolwebsite').href = "https://www.larnehigh.org.uk"
+document.getElementById('visitschoolwebsite').href = "https://twilightsaga.fandom.com/wiki/Twilight_Saga_Wiki"
