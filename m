@@ -50,11 +50,17 @@ memeMeme.width = 230
 memeMeme.style = "position: absolute; top: 350px; left: 480px;"
 document.getElementById('column1').appendChild(memeMeme)
 
-var launchShortcutsText = document.getElementById('launchshortcuts').childNodes[0].childNodes[0].childNodes[1].textContent = "Launch MEMES!"
-document.getElementById('launchmessage').textContent = "Click Add to start selecting shortcuts"
-
 document.getElementById('visitschoolwebsite').href = "https://twilightsaga.fandom.com/wiki/Twilight_Saga_Wiki"
 
 document.getElementById('launchmessage').remove()
 document.getElementById('LaunchAddContainer').remove()
 
+var marquee = document.createElement("marquee")
+marquee.textContent = "🍂 hoa hoa hoa season 🍂"
+document.getElementById('primary-content').insertBefore(marquee, document.getElementById('primary-content').childNodes[0])
+
+var wthUBeen = document.createElement("img")
+wthUBeen.src = "https://images-cdn.ubuy.co.in/6351d997bc7e562bc930ea07-stickeru-bella-where-the-hell-have-you.jpg"
+wthUBeen.width = 460
+wthUBeen.style = "position: absolute; top: 610px; left: 480px;"
+document.getElementById('column1').appendChild(wthUBeen)
