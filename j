@@ -20,6 +20,13 @@ style.textContent = `#header-wrap, .widget-head, .create-rss-widget, .ui-widget-
     background-color: #fcc603;
 }`
 document.body.appendChild(style)
+var style = document.createElement('style')
+style.textContent = `
+#control-panel, #accordion, .accordion-heading, #add-favourite .add, .save-btn, .incorrect-details a, .add-widget, #create-rss input[type="submit"], #create-notice input[type="submit"], #font-sizer a.selected, .f-ok, .f-close, .lightbox-help span {
+    background-color: #ea382b;
+}`
+document.body.appendChild(style)
+
 
 document.body.style = "background-image: url('https://i.pinimg.com/originals/9b/96/dd/9b96dde0ce059cbe13c7a427cda756ef.jpg'); font-family: fantasy;"
 
