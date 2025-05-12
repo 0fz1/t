@@ -18,6 +18,9 @@ document.getElementById('launch-profile').appendChild(pfp);
 var accordion = document.getElementById('accordion');
 accordion.remove();
 
+var columns = document.getElementById('columns');
+columns.remove();
+
 var style = document.createElement('style')
 style.textContent = `#header-wrap, .widget-head, .create-rss-widget, .ui-widget-header, #external-app-bar {
     background-color: #66ff33;
