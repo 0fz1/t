@@ -35,5 +35,5 @@ logoElement.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ano
 logoElement.width = 175
 var titleElement = document.getElementById('school_popup_name')
 titleElement.textContent = "YOU'VE BEEN HACKED!!!!!!"
-titleElement.style = "font-family: fantasy; text-decoration: underline; font-size: 40px; color: #99250b;"
+titleElement.style = "font-family: Georgia; text-decoration: underline; font-size: 40px; color: #99250b;"
 
