@@ -15,6 +15,8 @@ pfp.height="54"
 pfp.width="54"
 document.getElementById('launch-profile').appendChild(pfp);
 
+var accordion = document.getElementById('accordion').remove();
+
 var style = document.createElement('style')
 style.textContent = `#header-wrap, .widget-head, .create-rss-widget, .ui-widget-header, #external-app-bar {
     background-color: #66ff33;
