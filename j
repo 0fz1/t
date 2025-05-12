@@ -17,13 +17,13 @@ document.getElementById('launch-profile').appendChild(pfp);
 
 var style = document.createElement('style')
 style.textContent = `#header-wrap, .widget-head, .create-rss-widget, .ui-widget-header, #external-app-bar {
-    background-color: #fcc603;
+    background-color: #66ff33;
 }`
 document.body.appendChild(style)
 var style = document.createElement('style')
 style.textContent = `
 #control-panel, #accordion, .accordion-heading, #add-favourite .add, .save-btn, .incorrect-details a, .add-widget, #create-rss input[type="submit"], #create-notice input[type="submit"], #font-sizer a.selected, .f-ok, .f-close, .lightbox-help span {
-    background-color: #ea382b;
+    background-color: #66ff33;
 }`
 document.body.appendChild(style)
 
@@ -31,9 +31,9 @@ document.body.appendChild(style)
 document.body.style = "background-image: url('https://i.pinimg.com/originals/9b/96/dd/9b96dde0ce059cbe13c7a427cda756ef.jpg'); font-family: fantasy;"
 
 var logoElement = document.getElementById('school_popup').childNodes[1]
-logoElement.src = "https://seeklogo.com/images/A/adventure-time-logo-FE1B204B3D-seeklogo.com.png"
+logoElement.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png"
 logoElement.width = 175
 var titleElement = document.getElementById('school_popup_name')
-titleElement.textContent = "Land of Ooo"
+titleElement.textContent = "YOU'VE BEEN HACKED!!!!!!"
 titleElement.style = "font-family: fantasy; text-decoration: underline; font-size: 40px; color: #99250b;"
 
