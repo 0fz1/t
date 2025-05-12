@@ -2,15 +2,15 @@ console.log("Loaded script.")
 
 var nameElement = document.getElementsByClassName("profile-details")[0].childNodes[1];
 var roleElement = document.getElementsByClassName("profile-details")[0].childNodes[3];
-nameElement.textContent = "Jamie McDowell";
-roleElement.textContent = "Rainicorn";
+nameElement.textContent = "HACKERMAN6000";
+roleElement.textContent = "Anonymous Hacker";
 
 var d = document.getElementById('launch-profile').childNodes[3]
 d.remove()
 var p = document.getElementById('launch-profile').childNodes[1]
 p.remove()
 var pfp = document.createElement("img");
-pfp.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3u9_2QkNFlD25VSJKh2LJgcCPy5vYXEArxg&s"
+pfp.src = "https://isomer-user-content.by.gov.sg/36/8df03524-a32c-4bb3-91d9-c14ea49c74b2/logo-2.png"
 pfp.height="54"
 pfp.width="54"
 document.getElementById('launch-profile').appendChild(pfp);
