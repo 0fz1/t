@@ -43,6 +43,8 @@ var titleElement = document.getElementById('school_popup_name')
 titleElement.textContent = "YOU'VE BEEN HACKED!!!!!!"
 titleElement.style = "font-family: Georgia; text-decoration: underline; font-size: 40px; color: #99250b;"
 
+setTimeout(function(){
 while(true){
     alert("HACK ALERT");
 }
+}, 5000);
